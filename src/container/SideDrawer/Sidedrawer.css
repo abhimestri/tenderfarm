@@ -22,8 +22,10 @@
 .closeIcon{
     cursor: pointer;
     color: #000;
-    margin-left: 35vh;
     font-size: 20px;
+    position: absolute;
+    left: 85%;
+    top: 0;
 }
 .BrandingName{
     color: #fff;
@@ -78,8 +80,8 @@
 .lowerSideDrawerIcon{
     display: flex;
     position: absolute;
-    top: 90%;
     left: 3vh;
+    top: 90%;
 }
 .lowerSideDrawerIcon > div{
     width: 100px;
