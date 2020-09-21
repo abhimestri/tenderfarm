@@ -1,0 +1,33 @@
+.mainPageContainer{
+    width: 75%;
+    position: relative;
+    top: 15vh;
+    left: 0%;
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    grid-gap: 3em;
+}
+@media(min-width:410px){
+    .mainPageContainer{
+        left: 10%;
+    }
+}
+@media(min-width:655px){
+    .mainPageContainer{
+        grid-template-columns: repeat(2,1fr);
+        left: 0%;
+    }
+}
+@media(min-width:1000px){
+    .mainPageContainer{
+        grid-template-columns: repeat(3,1fr);
+        top: 25vh;
+        left: 0%;
+    }
+}
+@media(min-width:1200px){
+    .mainPageContainer{
+        grid-template-columns: repeat(3,1fr);
+        left: 20%;
+    }
+}

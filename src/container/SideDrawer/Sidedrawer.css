@@ -1,0 +1,151 @@
+.SidedrawerContainer{
+    z-index: 3;
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    background: rgb(2,0,36);
+    overflow: scroll;
+    transition: all ease-in-out 0.3s;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(8,35,138,1) 0%, rgba(7,59,154,1) 6%, rgba(6,80,168,1) 11%, rgba(6,90,175,1) 16%, rgba(4,132,202,1) 42%, rgba(3,155,217,1) 65%, rgba(0,212,255,1) 100%);
+}
+.SidedrawerContainerHidden{
+    z-index: 3;
+    margin-left: -300px;
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    background: rgb(2,0,36);
+    overflow: scroll;
+    transition: all ease-in-out 0.3s;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(8,35,138,1) 0%, rgba(7,59,154,1) 6%, rgba(6,80,168,1) 11%, rgba(6,90,175,1) 16%, rgba(4,132,202,1) 42%, rgba(3,155,217,1) 65%, rgba(0,212,255,1) 100%);
+}
+.closeIcon{
+    cursor: pointer;
+    color: #000;
+    margin-left: 35vh;
+    font-size: 20px;
+}
+.BrandingName{
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 40px 0 0 65px;
+}
+.sideDrawerList{
+    list-style: none;
+}
+.sideDrawerList > li{
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 0 -5vh;
+    width: 95%;
+}
+.active{
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 0 -5vh;
+    width: 100%;
+    position: relative;
+    left: -1%;
+    border-left: 5px solid orange;
+}
+.sideDrawerList > li >div{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+.sideDrawerList > li>div >p{
+    margin: 0 0 0 3em;
+}
+.notificationNumbers{
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    left: 32%;
+}
+.notificationNumbers > p{
+    margin: 0 0 0 5px;
+    color: #fff;
+}
+.sideDrawerIcon{
+    position: absolute;
+    left: 30px;
+}
+.lowerSideDrawerIcon{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 3vh;
+}
+.lowerSideDrawerIcon > div{
+    width: 100px;
+    height: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%,  0%, rgba(6,90,175,1) 16%);
+    margin: 10px 10px 10px 5px;
+    text-align: center;
+    color: #fff;
+}
+.lowerSideDrawerIcon > div >i{
+    font-size: 20px;
+    margin: 15px 0 0 0;
+}
+
+
+.AppleCompanySideDrawerBox{
+    width: 90%;
+    height: 130px;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(4,132,202,1) 0%, rgba(4,133,203,1) 20%, rgba(4,135,204,1) 27%, rgba(3,155,217,1) 100%); 
+    text-align: center;
+    color: #fff;
+    margin: 0 0 0 15px;
+    border-radius: 4px;
+}
+.innerBlock{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin: 10px 0 0 30px;
+    padding: 10px 0 0 0;
+}
+.innerBlock > div{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    width: 100px;
+}
+.innerBlock > div >p{
+    margin: 0;
+}
+.textForInnerBox > p{
+    width: 200px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.appleIconCover{
+    width: 50px;
+    height: 50px;
+    margin: 5px 0 0 0;
+    border-radius: 50%;
+    background: rgb(7,161,236);
+    background: linear-gradient(0deg, rgba(7,161,236,1) 8%, rgba(7,167,235,1) 80%);
+}
+.appleIcon{
+    margin: 5px 0 0 0;
+    font-size:35px;
+}
+@media(min-width:1200px){
+ .SidedrawerContainer{
+     margin: 0;
+ }
+ .SidedrawerContainerHidden{
+   margin-left: 0px;
+}
+ .closeIcon{
+    display: none;
+}
+}
