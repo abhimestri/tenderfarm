@@ -55,7 +55,7 @@ class Mainpage extends Component{
             {
                 CompanyName : "Twitter Inc",
                 img : Logo5,
-                time : "03d:14h:06m",
+                time : "03m:14d:06h",
                 task : "Mobile Clients Design",
                 teamMembers : "864",
                 budget : "5m",
@@ -65,7 +65,7 @@ class Mainpage extends Component{
             {
                 CompanyName : "SoundCloud LLC",
                 img : Logo6,
-                time : "02d:15h:54m",
+                time : "03m:10d:20h",
                 task : "Innovative Product Monetization",
                 teamMembers : "230",
                 budget : "4.9m",
